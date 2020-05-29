@@ -65,6 +65,7 @@
 
 }
 
+/* Background image ised in the home page on the top */
 .section-main-img {
     background-image: url("../images/background-home-img.jpg");
     background-size: cover;

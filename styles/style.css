@@ -62,3 +62,8 @@
     }
 
 }
+
+.jumbotron-img {
+    background-image: url("https://picsum.photos/1000");
+    background-size: cover;
+  }

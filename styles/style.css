@@ -66,17 +66,24 @@
 }
 
 /* Background image ised in the home page on the top */
-.section-main-img {
+.main-img {
     background-image:
     linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
     url('../images/background-main.jpg');
     background-size: cover;
+}
+
+.main-plain{
+    background: #f2f2f2;
+}
+
+.section-full{
     width: 100%;
     height: 100vh;
     overflow: auto;
-  }
+}
 
-.jumbotron {
+.custom-jumbotron {
     background: rgba(204, 204, 204, 0.5);
     color: #fff;
 }

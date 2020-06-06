@@ -161,3 +161,7 @@
     border: none;
     cursor: pointer;
 }
+
+.no-border-radius{
+    border-radius: 0!important;
+}

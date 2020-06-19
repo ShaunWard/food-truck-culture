@@ -1,3 +1,3 @@
-![Food truck culture logo](http://127.0.0.1:5500/images/logo.png)
+![Food truck culture logo](https://github.com/fandressouza/food-truck-culture/blob/master/images/logo.png?raw=true)
 
 # food-truck-culture

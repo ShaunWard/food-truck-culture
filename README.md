@@ -2,4 +2,27 @@
   <img src="https://github.com/fandressouza/food-truck-culture/blob/master/images/logo.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-# food-truck-culture
+# Description
+
+
+# Deployiment and Demo
+
+# Wireframe
+
+# UX
+
+## Visual Identity
+
+# User Stories
+
+# Features
+
+# Testing
+
+# Scalability
+
+# Technologies
+
+# Media
+
+# Thanks to

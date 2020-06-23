@@ -16,7 +16,7 @@ Website has been deployed to [GitHub Pages](https://pages.github.com/).
 
 # Wireframe
 
-The wireframe was designed using [Balsamiq]() and links to the final version can be found below:
+The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and links to the final version can be found below:
 
 - [Wireframe Final Version]()
 
@@ -31,7 +31,7 @@ In order to improve user experience and website loading speed, I have compressed
 # Visual Identity
 
 - [Logo Pony](https://www.logopony.com/) for the logo design and stationary
-- [Bootswatch]() 
+- [Bootswatch](https://bootswatch.com/) themes to add extra sweetness
 
 # User Stories
 
@@ -47,8 +47,8 @@ Website has been tested using [Pingdom](https://tools.pingdom.com/#5cb86d434ec00
 
 # Technologies
 
-- [Bootstrap]()
-- [jQuery]()
+- [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 
 # Media
 
@@ -56,7 +56,7 @@ I have used different resources for images and my logo, I'll list all below:
 
 - [Logo Pony](https://www.logopony.com/) for the logo design and stationary
 - [Unsplash](https://unsplash.com) for all the images
-- [Font Awesome]() for the amazing icons used on this site
+- [Font Awesome](https://fontawesome.com/6?next=%2Fstart) for the amazing icons used on this site
 - [Am I Responsive](http://ami.responsivedesign.is/) for the cool image in the UX section
 
 # Thanks to

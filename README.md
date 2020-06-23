@@ -4,6 +4,9 @@
 
 # Description
 
+Food truck culture is all about food delivered at your doorstep! We especialize in food truck rentals and provide a wide array of services for any pocket.
+
+We have developed a business from the ground up which has been serving our community for over 10 years and has won several awards like the **International Food Truck Club** Award which takes place in Venice Beach, California.
 
 # Deployiment and Demo
 

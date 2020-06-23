@@ -12,7 +12,7 @@ We have developed a business from the ground up which has been serving our commu
 
 Website has been deployed to [GitHub Pages](https://pages.github.com/).
 
-[Live Site](https://fandressouza.github.io/food-truck-culture/)
+The deployed version of this project can be found in this link -> [Live Site](https://fandressouza.github.io/food-truck-culture/).
 
 # Wireframe
 
@@ -39,9 +39,15 @@ In order to improve user experience and website loading speed, I have compressed
 
 # Testing
 
-Website has been tested using [Pingdom](https://tools.pingdom.com/#5cb86d434ec00000) and [BrowserStack](), see results below:
+Website has been tested using [GTmetrix](https://gtmetrix.com/reports/fandressouza.github.io/7xHu6MBv) and [BrowserStack](), see results below:
 
-![Pingdom image test results](images/pingdom.png)
+![Website Speed Test Results](images/speed_test.png)
+
+The points below can be improved with a bit more optimization:
+
+- Serving scaled images (some images are being resized in CSS e.g. logo.png)
+- Leveraging browser caching
+- When I did this test, css/theme.css returned a 404 (Imispelled Theme.css)
 
 # Scalability
 

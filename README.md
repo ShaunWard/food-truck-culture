@@ -2,19 +2,19 @@
   <img src="https://github.com/fandressouza/food-truck-culture/blob/master/images/logo.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-# Description [+](#description)
+# Description [](#description)
 
 Food truck culture is all about food delivered at your doorstep! We especialize in food truck rentals and provide a wide array of services for any pocket.
 
 We have developed a business from the ground up which has been serving our community for over 10 years and has won several awards like the **International Food Truck Club** Award which takes place in Venice Beach, California.
 
-# Deployment and Demo [+](#deployiment-and-demo)
+# Deployment and Demo [](#deployiment-and-demo)
 
 Website has been deployed to [GitHub Pages](https://pages.github.com/).
 
 The deployed version of this project can be found in this link -> [Live Site](https://fandressouza.github.io/food-truck-culture/).
 
-# Wireframe [+](#wireframe)
+# Wireframe [](#wireframe)
 
 The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and links to the final version can be found below:
 
@@ -28,16 +28,23 @@ In order to improve user experience and website loading speed, I have compressed
 
 ![tinypng image saving results](images/image_compressor.png)
 
-# Visual Identity [+](#visual-identity)
+# Visual Identity [](#visual-identity)
 
 - [Logo Pony](https://www.logopony.com/) for the logo design and stationary
 - [Bootswatch](https://bootswatch.com/) themes to add extra sweetness
 
-# User Stories [+](#user-stories)
+# User Stories [](#user-stories)
 
-# Features [+](#features)
+Users:
 
-# Testing [+](#testing)
+- As a user, I'd like to rent a food truck for an event
+- As a user, I'd like to contact the company to ask questions
+- As a user, I'd like to see who are the leaders of the company
+- As a user, I'd like to sign up as a franchise owner for the company
+
+# Features [](#features)
+
+# Testing [](#testing)
 
 Website has been tested using [GTmetrix](https://gtmetrix.com/reports/fandressouza.github.io/7xHu6MBv) and [BrowserStack](), see results below:
 
@@ -49,14 +56,14 @@ The points below can be improved with a bit more optimization:
 - Leveraging browser caching
 - When I did this test, css/theme.css returned a 404 (Imispelled Theme.css)
 
-# Scalability [+](#scalability)
+# Scalability [](#scalability)
 
-# Technologies [+](#technologies)
+# Technologies [](#technologies)
 
 - [Bootstrap](https://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
 
-# Media [+](#media)
+# Media [](#media)
 
 I have used different resources for images and my logo, I'll list all below:
 
@@ -65,4 +72,4 @@ I have used different resources for images and my logo, I'll list all below:
 - [Font Awesome](https://fontawesome.com/6?next=%2Fstart) for the amazing icons used on this site
 - [Am I Responsive](http://ami.responsivedesign.is/) for the cool image in the UX section
 
-# Thanks to [+](#thanks-to)
+# Thanks to [](#thanks-to)

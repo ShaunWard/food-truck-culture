@@ -58,6 +58,10 @@ The points below can be improved with a bit more optimization:
 
 # Scalability [](#scalability)
 
+Using a back-end programming language and database, I'd like to have a fully featured CMS which can be used by non-technical people to create, read, update and delete data easily.
+
+Also, I'd like franchise owners to have a private section where they can find resources and talk directly to our customer service representatives.
+
 # Technologies [](#technologies)
 
 - [Bootstrap](https://getbootstrap.com/)

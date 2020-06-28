@@ -47,8 +47,6 @@ Food truck owners:
 - As a business owner, I'd like to access the members area
 - As a business owner, I'd like to connect with other businesses in my area
 
-# Features
-
 # Testing
 
 Website has been tested using [GTmetrix](https://gtmetrix.com/reports/fandressouza.github.io/7xHu6MBv) and [BrowserStack](), see results below:

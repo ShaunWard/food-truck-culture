@@ -8,7 +8,7 @@
     <!--FAVICON-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/Theme.css" type="text/css" />
@@ -22,9 +22,10 @@
         <a class="navbar-brand" href="index.html">
             <img class="logo" src="images/logo.png" alt="Food truck culture logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" disabled>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -57,59 +58,61 @@
 
     <section class="section-full main-img">
         <div class="container vertical-center">
-            
-                <div class="jumbotron custom-jumbotron mt-3">
-                    <h5 class="custom-title">Join us as a franchise owner</h5>
-                    <hr>
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="fullname">Full Name</label>
-                                <input type="text" class="form-control" id="fullname">
-                            </div>
+
+            <div class="jumbotron custom-jumbotron mt-3">
+                <h5 class="custom-title">Join us as a franchise owner</h5>
+                <hr>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" required disabled />
                         </div>
-                        <div class="form-group">
-                            <label for="inputAddress">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        <div class="form-group col-md-6">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" class="form-control" id="fullname" required disabled />
                         </div>
-                        <div class="form-group">
-                            <label for="inputAddress2">Address 2</label>
-                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required
+                            disabled />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor" required disabled />
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" required disabled />
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputState">State</label>
-                                <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                    </select>
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label for="inputZip">Zip</label>
-                                <input type="text" class="form-control" id="inputZip">
-                            </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
                         </div>
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                    Subscribe me to the newsletter
-                    </label>
-                            </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip" required disabled />
                         </div>
-                        <button type="submit" class="btn btn-primary">Join Our team</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required disabled />
+                            <label class="form-check-label" for="gridCheck">
+                                Subscribe me to the newsletter
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Join Our team</button>
+                </form>
             </div>
-                
+        </div>
+
         </div>
     </section>
 
@@ -136,11 +139,13 @@
                                     <img class="w-100" src="images/salad.jpg" alt="Third slide">
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
@@ -156,7 +161,9 @@
                             You ate that first one and its flesh was sweet
                             Like thickened wine: summer's blood was in it
                             Leaving stains upon the tongue and lust for
-                            Picking... <a target="_blank" href="https://www.poetryfoundation.org/poems/50981/blackberry-picking" aria-label="link to potry and food site">Read More</a>
+                            Picking... <a target="_blank"
+                                href="https://www.poetryfoundation.org/poems/50981/blackberry-picking"
+                                aria-label="link to potry and food site">Read More</a>
                         </p>
                         <a class="btn btn-success" href="contact.html">Contact us today!</a>
                     </div>
@@ -168,98 +175,105 @@
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
 
-            <!-- Footer Links -->
-            <div class="container-fluid text-center text-md-left">
-    
-                <!-- Grid row -->
-                <div class="row">
-    
-                    <!-- Grid column -->
-                    <div class="col-md-6 mt-md-0 mt-3">
-    
-                        <!-- Content -->
-                      <div class="col-md-8">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <div class="col-md-8">
                         <form>
-                          <h6>SUBSCRIBE TO OUR NEWSLETTER</h6>
-                          <div class="input-group">
-                              <input type="email" class="form-control" placeholder="Enter your email">
-                              <span class="input-group-btn">
-                                <button class="btn btn-primary btn-small no-border-radius" type="submit">Subscribe Now</button>
-                              </span>
-                          </div>
+                            <h6>SUBSCRIBE TO OUR NEWSLETTER</h6>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email" required
+                                    disabled>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary btn-small no-border-radius" type="submit"
+                                        disabled>Subscribe Now</button>
+                                </span>
+                            </div>
                         </form>
-                      </div>
-                      
-                      <div class="col-md-12 mt-3">
-                            <small>
-                                    We are a Global brand based in California and our business is all about getting you the right 
-                                    equipment you need for your food truck journey. Contact us today and get the best deals!
-                            </small>
-                      </div>
                     </div>
-                    <!-- Grid column -->
-    
-                    <hr class="clearfix w-100 d-md-none pb-3">
-    
-                    <!-- Grid column -->
-                    <div class="col-md-3 mb-md-0 mb-3">
-    
-                        <!-- Links -->
-                        <h6 class="text-uppercase">Company</h6>
-    
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!"><small>Work with us</small></a>
-                            </li>
-                            <li>
-                                <a href="#!"><small>Our History</small></a>
-                            </li>
-                            <li>
-                                <a href="#!"><small>Where to find us</small></a>
-                            </li>
-                        </ul>
-    
+
+                    <div class="col-md-12 mt-3">
+                        <small>
+                            We are a Global brand based in California and our business is all about getting you the
+                            right
+                            equipment you need for your food truck journey. Contact us today and get the best deals!
+                        </small>
                     </div>
-                    <!-- Grid column -->
-    
-                    <!-- Grid column -->
-                    <div class="col-md-3 mb-md-0 mb-3">
-    
-                        <!-- Links -->
-                        <h6 class="text-uppercase">Social</h6>
-    
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!"><small><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</small></a>
-                            </li>
-                            <li>
-                                <a href="#!"><small><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</small></a>
-                            </li>
-                            <li>
-                                <a href="#!"><small><i class="fa fa-google-plus-square" aria-hidden="true"></i> Google</small></a>
-                            </li>
-                            <li>
-                                <a href="#!"><small><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</small></a>
-                            </li>
-                        </ul>
-    
-                    </div>
-                    <!-- Grid column -->
-    
                 </div>
-                <!-- Grid row -->
-    
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase">Company</h6>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!"><small>Work with us</small></a>
+                        </li>
+                        <li>
+                            <a href="#!"><small>Our History</small></a>
+                        </li>
+                        <li>
+                            <a href="#!"><small>Where to find us</small></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase">Social</h6>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!"><small><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                    Facebook</small></a>
+                        </li>
+                        <li>
+                            <a href="#!"><small><i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                    Twitter</small></a>
+                        </li>
+                        <li>
+                            <a href="#!"><small><i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                                    Google</small></a>
+                        </li>
+                        <li>
+                            <a href="#!"><small><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    LinkedIn</small></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
             </div>
-            <!-- Footer Links -->
-    
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">
-              <small>© Copyright Food Truck Culture</small>
-            </div>
-            <!-- Copyright -->
-    
-        </footer>
-        <!-- Footer -->
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            <small>© Copyright Food Truck Culture</small>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

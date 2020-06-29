@@ -22,7 +22,7 @@ The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) an
 
 # UX
 
-I have opted to a simple and responsive design which is lightweight and has a loading time of lezz than 1 second.
+I have opted to a simple and responsive design which is lightweight and has a loading time of less than 1 second.
 
 - Home page: Contains a jumbotron and a background image for the main section which resizes accordingly depending on user's viewport size
 - About us page: Contains a jumbotron with a inner carousel in the main section and a set of card elements at the bottom section for the leaders of the company

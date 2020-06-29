@@ -26,7 +26,9 @@ I have opted to a simple and responsive design which is lightweight and has a lo
 
 - Home page: Contains a jumbotron and a background image for the main section which resizes accordingly depending on user's viewport size
 - About us page: Contains a jumbotron with a inner carousel in the main section and a set of card elements at the bottom section for the leaders of the company
-- 
+- Franchise page: Contains a form in the first section so users can sign up as franchiser owners. Below we have reused a jumbotron with inner carousel
+- Services page: Services page contains a grid system with inner card elements
+- contact page: Contact page contains a contact form with a food truck PNG image on top
 
 ![Responsive image with many different monitors](images/responsive.png)
 
